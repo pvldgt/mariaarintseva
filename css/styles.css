@@ -1,38 +1,39 @@
+
+/* Basic HTML elements */
 body {
   text-align: center;
 }
 
-
-
 h1 {
-font-family: "Yanone Kaffeesatz";
-font-size: 5rem;
-font-weight: 900;
-color:rgb(47, 44, 47);
-padding: 3% 0%;
+  font-family: "Yanone Kaffeesatz";
+  font-size: 5rem;
+  font-weight: 900;
+  color:rgb(47, 44, 47);
+  padding: 3% 0%;
+}
+
+h2, h3 {
+  font-family: 'Montserrat Alternates';
 }
 
 h2 {
-font-family: 'Montserrat Alternates';
-font-size: 2rem;
-font-weight: 500;
-color: rgb(55, 55, 55);
-
-padding: 1% 0%;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(55, 55, 55);
+  padding: 1% 0%;
 }
 
 h3 {
-font-family: 'Montserrat Alternates';
-font-size: 1.5rem;
-font-weight: 400;
-color: rgb(105, 102, 102);
-
-padding: 3% 0%; 
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(105, 102, 102);
+  padding: 3% 0%; 
 }
+/* End of Basic HTML elements */
 
 /* Navigation */
 .navbar {
-background-color: rgb(196, 255, 255);
+  background-color: rgb(196, 255, 255);
 }
 
 .navbar-brand {
@@ -67,42 +68,46 @@ text-decoration: underline;
 }
 
 
-/* First Section */
+/* Main Page */
 .greeting {
-padding: 5%;
+  padding: 5%;
 }
 
 .contact-me-button {
-
-font-family: 'Montserrat Alternates';
-font-size: 1.5rem;
-margin-top: 7%;
+  font-family: 'Montserrat Alternates';
+  font-size: 1.5rem;
+  margin-top: 7%;
 }
 
 .telegram-logo {
-color:rgb(63, 141, 208);
-font-size: 1.5rem;
-/* vertical-align: middle; */
+  color:rgb(63, 141, 208);
+  font-size: 1.5rem;
 }
+/* End of Main Page */
 
 /* Image */
 .title-image {
 width: 100%;
 }
+/* End of Image */
 
 /* About Me Section */
-
-
 .lets-center {
-width: 50%;
-margin: auto;
+  width: 50%;
+  margin: auto;
 }
 
+.section-title {
+  text-align: center;
+}
+/* End of About Me Section */
 
-
+.regular-section {
+  padding: 3% 0%;
+}
 
 /*--------------------------------------------------------------
-# Resume
+ Resume
 --------------------------------------------------------------*/
 .resume {
 background-color: rgb(196, 255, 255);   
@@ -197,6 +202,12 @@ margin: 4%;
 
 .right-align {
 text-align: right;
+}
+
+@media screen and (max-width: 991px)  {
+  .right-align {
+    text-align: center;
+    }
 }
 
 /* english section */
