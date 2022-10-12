@@ -1,0 +1,223 @@
+body {
+  text-align: center;
+}
+
+
+
+h1 {
+font-family: "Yanone Kaffeesatz";
+font-size: 5rem;
+font-weight: 900;
+color:rgb(47, 44, 47);
+padding: 3% 0%;
+}
+
+h2 {
+font-family: 'Montserrat Alternates';
+font-size: 2rem;
+font-weight: 500;
+color: rgb(55, 55, 55);
+
+padding: 1% 0%;
+}
+
+h3 {
+font-family: 'Montserrat Alternates';
+font-size: 1.5rem;
+font-weight: 400;
+color: rgb(105, 102, 102);
+
+padding: 3% 0%; 
+}
+
+/* Navigation */
+.navbar {
+background-color: rgb(196, 255, 255);
+}
+
+.navbar-brand {
+color: rgb(249, 117, 179);
+font-family: "Yanone Kaffeesatz";
+font-size: 3rem;
+font-weight: 700;
+margin-left: 3%;
+
+}
+
+.navbar-brand:hover {
+color: rgb(183, 45, 126);
+}
+
+.nav-item {
+font-family: 'Montserrat Alternates';
+font-size: 1rem;
+font-weight: 700;
+color: rgb(105, 102, 102);
+padding: 0.3em;
+
+}
+
+.nav-link:hover {
+color: rgb(249, 117, 179);
+text-decoration: underline;
+}
+
+.navbar-nav {
+
+}
+
+
+/* First Section */
+.greeting {
+padding: 5%;
+}
+
+.contact-me-button {
+
+font-family: 'Montserrat Alternates';
+font-size: 1.5rem;
+margin-top: 7%;
+}
+
+.telegram-logo {
+color:rgb(63, 141, 208);
+font-size: 1.5rem;
+/* vertical-align: middle; */
+}
+
+/* Image */
+.title-image {
+width: 100%;
+}
+
+/* About Me Section */
+
+
+.lets-center {
+width: 50%;
+margin: auto;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume {
+background-color: rgb(196, 255, 255);   
+text-align: left; 
+}
+
+.resume .resume-title {
+    font-family: 'Montserrat Alternates';
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(249, 117, 179);
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 3px solid rgb(255, 212, 232);
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #328b92;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: rgb(224, 255, 255);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: rgb(242, 107, 170);
+    border: 2px solid rgb(255, 212, 232);
+  }
+
+/* End of resume  */
+
+.better-padding {
+padding: 0.5%;
+}
+
+.section-title {
+padding: 0.5%;
+}
+    
+.funny-font {
+font-family: "Yanone Kaffeesatz";
+font-size: 3rem;
+}
+
+.english {
+
+background-color: rgb(255, 255, 255);  
+}
+
+/* quote image */
+.quote-image {
+border-radius: 100%;
+width: 50%;
+margin: 4%;
+}
+
+.right-align {
+text-align: right;
+}
+
+/* english section */
+.sign-up-for-class {
+
+font-family: 'Montserrat Alternates';
+font-size: 1.5rem;
+margin: 5%;
+}
+
+/* feedback section  */
+.english-feedback {
+background-color: rgb(255, 243, 173); 
+
+}
+.testimonial-image {
+border-radius: 100%;
+width: 20%;
+margin: 4%;
+}
+
+.testimonial-item {
+padding: 3% 20%;
+}
