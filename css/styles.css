@@ -70,7 +70,7 @@ h3 {
 .contact-me-button {
   font-family: 'Montserrat Alternates';
   font-size: 1.5rem;
-  margin: 5%;
+  margin: 2%;
 }
 
 .telegram-logo {
@@ -214,5 +214,9 @@ h3 {
 /* Psychology */
 #psychology {
   background-color: #fff;
+}
+
+#psychology-feedback {
+  background-color: rgb(255, 212, 232);
 }
 /* End of Psychology */
