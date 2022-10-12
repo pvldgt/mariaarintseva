@@ -37,36 +37,30 @@ h3 {
 }
 
 .navbar-brand {
-color: rgb(249, 117, 179);
-font-family: "Yanone Kaffeesatz";
-font-size: 3rem;
-font-weight: 700;
-margin-left: 3%;
-
+  color: rgb(249, 117, 179);
+  font-family: "Yanone Kaffeesatz";
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 3%;
 }
 
 .navbar-brand:hover {
-color: rgb(183, 45, 126);
+  color: rgb(183, 45, 126);
 }
 
 .nav-item {
-font-family: 'Montserrat Alternates';
-font-size: 1rem;
-font-weight: 700;
-color: rgb(105, 102, 102);
-padding: 0.3em;
-
+  font-family: 'Montserrat Alternates';
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(105, 102, 102);
+  padding: 0.3em;
 }
 
 .nav-link:hover {
-color: rgb(249, 117, 179);
-text-decoration: underline;
+  color: rgb(249, 117, 179);
+  text-decoration: underline;
 }
-
-.navbar-nav {
-
-}
-
+/* End of Navigation */
 
 /* Main Page */
 .greeting {
@@ -76,7 +70,7 @@ text-decoration: underline;
 .contact-me-button {
   font-family: 'Montserrat Alternates';
   font-size: 1.5rem;
-  margin-top: 7%;
+  margin: 5%;
 }
 
 .telegram-logo {
@@ -85,33 +79,38 @@ text-decoration: underline;
 }
 /* End of Main Page */
 
-/* Image */
+/* Main Image */
 .title-image {
-width: 100%;
+  width: 100%;
 }
-/* End of Image */
+/* End of Main Image */
 
-/* About Me Section */
-.lets-center {
-  width: 50%;
-  margin: auto;
-}
 
+/* Section Related Stuff */
 .section-title {
   text-align: center;
+  padding: 0.5%;
 }
-/* End of About Me Section */
 
 .regular-section {
   padding: 3% 0%;
 }
 
-/*--------------------------------------------------------------
- Resume
---------------------------------------------------------------*/
+.better-padding {
+  padding: 0.5%;
+}
+      
+.section-font {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 3rem;
+}
+/* End of Section Related Stuff  */
+
+
+/* Resume */
 .resume {
-background-color: rgb(196, 255, 255);   
-text-align: left; 
+  background-color: rgb(196, 255, 255);   
+  text-align: left; 
 }
 
 .resume .resume-title {
@@ -172,36 +171,21 @@ text-align: left;
     background: rgb(242, 107, 170);
     border: 2px solid rgb(255, 212, 232);
   }
+/* End of Resume  */
 
-/* End of resume  */
-
-.better-padding {
-padding: 0.5%;
+/* English Section  */
+#english {
+  background-color: rgb(255, 255, 255);  
 }
 
-.section-title {
-padding: 0.5%;
-}
-    
-.funny-font {
-font-family: "Yanone Kaffeesatz";
-font-size: 3rem;
-}
-
-.english {
-
-background-color: rgb(255, 255, 255);  
-}
-
-/* quote image */
 .quote-image {
-border-radius: 100%;
-width: 50%;
-margin: 4%;
+  border-radius: 100%;
+  width: 50%;
+  margin: 4%;
 }
 
 .right-align {
-text-align: right;
+  text-align: right;
 }
 
 @media screen and (max-width: 991px)  {
@@ -209,26 +193,20 @@ text-align: right;
     text-align: center;
     }
 }
+/* End of English Section  */
 
-/* english section */
-.sign-up-for-class {
-
-font-family: 'Montserrat Alternates';
-font-size: 1.5rem;
-margin: 5%;
+/* Feedback Section  */
+#english-feedback {
+  background-color: rgb(255, 243, 173); 
 }
 
-/* feedback section  */
-.english-feedback {
-background-color: rgb(255, 243, 173); 
-
-}
 .testimonial-image {
-border-radius: 100%;
-width: 20%;
-margin: 4%;
+  border-radius: 100%;
+  width: 20%;
+  margin: 4%;
 }
 
 .testimonial-item {
-padding: 3% 20%;
+  padding: 3% 20%;
 }
+/* End of Feedback Section  */
